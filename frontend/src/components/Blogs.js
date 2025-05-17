@@ -8,9 +8,9 @@ function Blogs() {
       <h2>Blog</h2>
       <div className="blog-list">
         <div className="blog-card">
-          <h3>Why Engineers Should Write</h3>
+          <h3>From Medicine to Engineering</h3>
           <p>
-            Thoughts on how writing improves technical clarity, collaboration, and decision-making.
+              Exploring my journey from pre-med to software engineering and what I learned from it.
           </p>
           <a href="#">Read More →</a>
         </div>
@@ -29,16 +29,16 @@ function Blogs() {
           <a href="#">Read More →</a>
         </div>
         <div className="blog-card">
-          <h3>Why Engineers Should Write</h3>
+          <h3>Open-Ended Problems I Find Interesting</h3>
           <p>
-            Thoughts on how writing improves technical clarity, collaboration, and decision-making.
+            Thoughts on cutting-edge problems and their potential applications.
           </p>
           <a href="#">Read More →</a>
         </div>
         <div className="blog-card">
-          <h3>Why Engineers Should Write</h3>
+          <h3>A Letter to Home</h3>
           <p>
-            Thoughts on how writing improves technical clarity, collaboration, and decision-making.
+            Creative writing about where I am from.
           </p>
           <a href="#">Read More →</a>
         </div>

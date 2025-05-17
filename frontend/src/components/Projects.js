@@ -1,7 +1,5 @@
 // src/components/Projects.js
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
 import "./Projects.css";
 
 const Projects = () => {

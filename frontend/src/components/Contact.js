@@ -1,7 +1,6 @@
 // src/components/Contact.js
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+
 import "./Contact.css";  // optional styling
 
 function Contact() {
