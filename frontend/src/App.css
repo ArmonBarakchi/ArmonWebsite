@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background-color: #f7f9fc;
+  color: #000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background-color: #e0e0e0;
+  margin: 2rem auto;
+  max-width: 80%;
+}
+
+
+

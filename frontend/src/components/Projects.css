@@ -1,0 +1,44 @@
+/* src/components/Projects.css */
+.projects-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.projects-content {
+  flex: 1;
+  padding: 3rem 5vw;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #fcfcfc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.project-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
