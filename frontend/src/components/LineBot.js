@@ -1,7 +1,7 @@
 // src/components/LineBot.js
 import React from "react";
 import "./ProjectPage.css";
-import botImage from "./profile.jpg"; // adjust path to your actual image
+import botImage from "./Linebot.JPG"; // adjust path to your actual image
 
 const LineBot = () => {
   return (
@@ -11,6 +11,14 @@ const LineBot = () => {
           <h1>LineBot</h1>
           <p className="project-subtitle">
             A robot car that follows a black line using infrared sensors.
+            <a
+                className="github-button"
+                href="https://youtube.com/shorts/LzNb0h7NZCM"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              View Preview on Youtube →
+            </a>
           </p>
 
           <section className="project-section">
@@ -102,16 +110,11 @@ const LineBot = () => {
         </div>
 
         <div className="project-media">
-          <iframe
-              width="100%"
-              height="400"
-              src="https://youtube.com/shorts/LzNb0h7NZCM"
-              title="LineBot Demo"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              style={{borderRadius: "10px"}}
-          ></iframe>
+          <img
+              src={botImage} // Make sure `botImage` is correctly imported
+              alt="LineBot robot"
+              style={{maxWidth: "100%", borderRadius: "10px"}}
+          />
         </div>
 
       </div>
