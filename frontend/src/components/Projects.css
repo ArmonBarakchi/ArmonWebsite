@@ -1,44 +1,71 @@
-/* src/components/Projects.css */
-.projects-page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 .projects-content {
   flex: 1;
   padding: 3rem 5vw;
   max-width: 1000px;
   margin: 0 auto;
+  text-align: center; /* Center the heading */
 }
 
 .project-list {
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center the cards */
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
 
 .project-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 700px; /* restrict width */
   border: 1px solid #ddd;
   padding: 1.5rem;
   border-radius: 10px;
   background: #fcfcfc;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: relative;
 }
 
-.project-card h2 {
+.project-info {
+  max-width: 80%;
+  text-align: left;
+}
+
+.project-info h2 {
   margin-bottom: 0.5rem;
 }
 
-.project-card a {
-  display: inline-block;
-  margin-top: 0.75rem;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+.project-info p {
+  margin-bottom: 0.5rem;
 }
 
-.project-card a:hover {
+.read-more {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.read-more:hover {
   text-decoration: underline;
 }
+
+.github-link{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.github-link:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+

@@ -6,12 +6,13 @@ import Blogs from "./Blogs";
 
 import "./Home.css";
 
+//add guides back once you make them
 function Home() {
   return (
     <div className="Home">
       <Hero />
-      <hr className="section-divider"/>
-      <Guides />
+
+
       <hr className="section-divider"/>
       <Blogs />
     </div>

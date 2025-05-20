@@ -9,23 +9,42 @@ const Projects = () => {
         <h1>Projects</h1>
         <div className="project-list">
           <div className="project-card">
-            <h2>LineBot</h2>
-            <p>A real-time sports betting bot that uses line movement to exploit inefficiencies.</p>
-            <a href="https://github.com/ArmonBarakchi/LineBot" target="_blank" rel="noopener noreferrer">
+            <div className="project-info">
+              <h2>LineBot</h2>
+              <p>A robot car that follows a black line</p>
+              <a className="read-more" href="/project/LineBot">Read More →</a>
+            </div>
+            <a
+                className="github-link"
+                href="https://github.com/ArmonBarakchi/LineBot/blob/main/LineBot.ino"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
               GitHub →
             </a>
           </div>
+
           <div className="project-card">
-            <h2>Quantitative Trading Model</h2>
-            <p>A high-frequency trading model using statistical arbitrage in Python and pandas.</p>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              GitHub →
-            </a>
+            <div className="project-info">
+              <h2>Papillary Thyroid Carcinoma Paper</h2>
+              <p>Published paper about the role of fungal and archaeal microbes in different subtypes and genders of
+                Papillary Thyroid Carcinoma </p>
+              <a className="read-more" href="/project/Transcriptomic">Read More →</a>
+            </div>
+
           </div>
-          {/* Add more project cards here */}
+
+          <div className="project-card">
+            <div className="project-info">
+              <h2>Head and Neck Cancer Paper</h2>
+              <p>Published paper about the role of HPV oncoproteins on the prognosis of Head and Neck Squamous Cell Carcinoma </p>
+              <a className="read-more" href="/project/E6">Read More →</a>
+            </div>
+
+          </div>
+
         </div>
       </main>
-
     </div>
   );
 };

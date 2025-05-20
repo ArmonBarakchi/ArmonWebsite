@@ -13,7 +13,7 @@ function Hero() {
                   Trained in electrical engineering. Focused on using my cross-disciplinary background to create elegant
                   solutions to complex problems. Strong Foundation in C++ and python.
               </p>
-              <a href="#projects" className="cta-button">My Work</a>
+              <a href="/projects" className="cta-button">My Work</a>
 
           </div>
 
