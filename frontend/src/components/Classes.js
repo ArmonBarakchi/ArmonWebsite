@@ -61,7 +61,8 @@ const Classes = () => {
       <section className="classes-section">
         <h2>Relevant College Coursework</h2>
         <p className="course-note">
-          All courses completed at the University of California, San Diego. The relevant information about each class
+          All courses completed at the University of California, San Diego. 0-99 -> Lower Division. 100-199 -> Upper Division. 200-299 -> Graduate Level.
+            The relevant information about each class
           can be found at the{' '}
           <a href="https://catalog.ucsd.edu/courses/ECE.html" target="_blank" rel="noopener noreferrer">Electrical
             Engineering Catalog</a>,{' '}
