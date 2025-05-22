@@ -1,0 +1,46 @@
+.classes-section {
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: 'Merriweather', serif;
+}
+
+.classes-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.classes-list {
+  columns: 2; /* You can increase this to 3 if desired */
+  column-gap: 4rem;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  padding-left: 1.5rem;
+}
+
+.classes-list li {
+  break-inside: avoid;
+  margin-bottom: 0.75rem;
+}
+
+.course-note {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.course-note a {
+  color: #000000;
+  text-decoration: underline; /* always underlined */
+  transition: filter 0.2s ease;
+}
+
+.course-note a:hover {
+
+  filter: brightness(1.2);   /* slightly brighter */
+}
+
