@@ -31,6 +31,7 @@ const classes = [
   'ECE 174: Linear and Nonlinear Optimization with Applications',
   'ECE 175: Pattern Recognition and Machine Learning',
   'ECE 176: Deep Learning and Applications',
+  'ECE 250: Probability and Random Processes'
   'ECE 251C: Filter Banks and Wavelets',
   'ECE 253: Fundamentals of Digital Image Processing',
   'ECE 260A: VLSI Digital System Algorithms and Architectures',
