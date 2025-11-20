@@ -31,13 +31,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} /> {/* ✅ */}
 
-        <Route path="/blog/med-EE" element={<MedEE />} />
-        <Route path="/blog/building" element={<BuildingWebsite/>} />
-        <Route path="/blog/WhyEngineersShouldWrite" element={<WhyEngineersShouldWrite />} />
-        <Route path="/blog/funproblems" element={<FunProblems />} />
-        <Route path="/blog/A_Letter_to_Home" element={<Letter />} />
-
-
         <Route path="/guide/C++" element = {<C />} />
         <Route path="/guide/numpy" element = {<Numpy />} />
         <Route path="/guide/pandas" element = {<Pandas />} />
