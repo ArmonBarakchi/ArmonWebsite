@@ -3,7 +3,7 @@ import React from "react";
 import "./ProjectPage.css";
 import botImage from "./Linebot.JPG"; // adjust path to your actual image
 
-const LineBot = () => {
+const Options = () => {
   return (
     <div className="project-page">
       <div className="project-container">
@@ -119,4 +119,5 @@ const LineBot = () => {
   );
 };
 
+export default Options;
 
