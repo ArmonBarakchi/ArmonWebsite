@@ -37,6 +37,7 @@ function App() {
         <Route path="/guide/mostofundergraduate" element = {<Undergraduate />} />
         <Route path="/guide/python" element = {<Python />} />
 
+        <Route path="/project/options" element={<options/>} />
         <Route path="/project/LineBot" element={<LineBot/>} />
         <Route path="/project/Transcriptomic" element={<Transcriptomic/>} />
         <Route path="/project/E6" element={<E6/>} />

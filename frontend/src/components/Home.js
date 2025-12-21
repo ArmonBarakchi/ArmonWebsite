@@ -14,8 +14,6 @@ function Home() {
           <Hero/>
           <hr className="section-divider"/>
           <Classes/>
-          <hr className="section-divider"/>
-          <Blogs/>
       </div>
   );
 }
