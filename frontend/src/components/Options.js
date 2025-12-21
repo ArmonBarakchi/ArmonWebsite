@@ -119,4 +119,4 @@ const LineBot = () => {
   );
 };
 
-export default LineBot;
+
