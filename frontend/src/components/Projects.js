@@ -8,6 +8,23 @@ const Projects = () => {
       <main className="projects-content">
         <h1>Projects</h1>
         <div className="project-list">
+
+          <div className="project-card">
+            <div className="project-info">
+              <h2>Options Pricing Models</h2>
+              <p>Interactive GUI that uses various models to price options of NYSE stocks</p>
+              <a className="read-more" href="/project/options">Read More →</a>
+            </div>
+            <a
+                className="github-link"
+                href="https://github.com/ArmonBarakchi/OptionsPricingModels"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+          </div>
+
           <div className="project-card">
             <div className="project-info">
               <h2>LineBot</h2>
@@ -37,7 +54,8 @@ const Projects = () => {
           <div className="project-card">
             <div className="project-info">
               <h2>Head and Neck Cancer Paper</h2>
-              <p>Published paper about the role of HPV oncoproteins on the prognosis of Head and Neck Squamous Cell Carcinoma </p>
+              <p>Published paper about the role of HPV oncoproteins on the prognosis of Head and Neck Squamous Cell
+                Carcinoma </p>
               <a className="read-more" href="/project/E6">Read More →</a>
             </div>
 

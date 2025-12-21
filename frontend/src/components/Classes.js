@@ -31,7 +31,7 @@ const classes = [
   'ECE 174: Linear and Nonlinear Optimization with Applications',
   'ECE 175: Pattern Recognition and Machine Learning',
   'ECE 176: Deep Learning and Applications',
-  'ECE 250: Probability and Random Processes'
+  'ECE 250: Probability and Random Processes',
   'ECE 251C: Filter Banks and Wavelets',
   'ECE 253: Fundamentals of Digital Image Processing',
   'ECE 260A: VLSI Digital System Algorithms and Architectures',
@@ -39,12 +39,14 @@ const classes = [
   'ECE 260C: VLSI Advanced Topics',
   'ECE 269: Advanced Linear Algebra and Applications',
   'ECE 271A: Statistical Learning',
+  'ECE 271B: Statistical Learning II',
   'ECE 272A: Dynamic Systems I: Linear Systems',
   'ECE 273: Convex Optimization',
   'ECE 275A: Parameter Estimation I',
   'ECE 275B: Parameter Estimation II',
   'ECE 276A: Sensing and Estimation in Robotics',
   'ECE 276B: Planning and Learning in Robotics',
+  'ECE 285: Special Topics: Stochastic Hybrid Systems for Control, Learning, and Optimization',
 
 
 ];
