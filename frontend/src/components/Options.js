@@ -8,9 +8,10 @@ const Options = () => {
     <div className="project-page">
       <div className="project-container">
         <div className="project-text">
-          <h1>LineBot</h1>
+          <h1>Options Pricing GUI</h1>
           <p className="project-subtitle">
             Interactive online GUI for pricing options.
+          </p>
             <a
                 className="github-button"
                 href="https://optionspricingmodels.streamlit.app/"
@@ -19,7 +20,6 @@ const Options = () => {
             >
               View the Website →
             </a>
-          </p>
 
             <section className="project-section">
                 <h2>Overview</h2>
