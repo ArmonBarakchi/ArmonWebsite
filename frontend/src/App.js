@@ -20,6 +20,7 @@ import Pandas from './components/Pandas';
 import LineBot from './components/LineBot'
 import Transcriptomic from './components/Transcriptomic'
 import E6 from './components/E6'
+import Options from './components/Options.js'
 
 function App() {
   return (
