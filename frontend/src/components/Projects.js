@@ -11,7 +11,7 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>3D Orientatino Tracking</h2>
+              <h2>3D Orientation Tracking</h2>
               <p>Robot orientation tracking and panorama construction from IMU and camera data</p>
               <a className="read-more" href="/project/orientation">Read More →</a>
             </div>
