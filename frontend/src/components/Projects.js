@@ -11,6 +11,22 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
+              <h2>3D Orientatino Tracking</h2>
+              <p>Robot orientation tracking and panorama construction from IMU and camera data</p>
+              <a className="read-more" href="/project/orientation">Read More →</a>
+            </div>
+            <a
+                className="github-link"
+                href="https://github.com/ArmonBarakchi/Orientation-Track-from-Sensor-Data"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <div className="project-info">
               <h2>Options Pricing Models</h2>
               <p>Interactive GUI that uses various models to price options of NYSE stocks</p>
               <a className="read-more" href="/project/options">Read More →</a>
