@@ -37,4 +37,4 @@ To answer this, the paper models the portfolio's log-relative wealth as a hybrid
   );
 };
 
-export default Hybridwealt();
+export default Hybridwealt;
