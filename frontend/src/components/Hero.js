@@ -11,7 +11,7 @@ function Hero() {
               </div>
               <p className="blurb">
                   Trained in electrical engineering. Focused on using my cross-disciplinary background to create elegant
-                  solutions to complex problems. Strong Foundation in C++ and python.
+                  solutions to complex problems. Strong Foundation in C++ and Python.
               </p>
               <a href="/projects" className="cta-button">My Work</a>
 
@@ -19,7 +19,7 @@ function Hero() {
 
 
           <div className="hero-image">
-          <img src="/images/profile.jpg" alt="Profile"/>
+          <img src="/images/profile.jpeg" alt="Profile"/>
           </div>
 
       </section>
