@@ -17,7 +17,7 @@ import Transcriptomic from './components/Transcriptomic'
 import E6 from './components/E6'
 import Options from './components/Options'
 import Orientation from "./components/Orientation";
-import Hybridwealth from "./components/hybridwealth";
+import Hybridwealt from "./components/hybridwealth";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
         <Route path="/guide/mostofundergraduate" element = {<Undergraduate />} />
         <Route path="/guide/python" element = {<Python />} />
 
-        <Route path="/project/hybridwealth" element ={<Hybridwealth />} />
+        <Route path="/project/hybridwealth" element ={<Hybridwealt />} />
         <Route path="/project/orientation" element={<Orientation />} />
         <Route path="/project/options" element={<Options />} />
         <Route path="/project/LineBot" element={<LineBot/>} />

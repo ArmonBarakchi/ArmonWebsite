@@ -2,7 +2,7 @@
 import React from "react";
 import "./ProjectPage.css";
 
-const Hybridwealth = () => {
+const Hybridwealt = () => {
   return (
     <div className="project-page">
       <div className="project-container">
@@ -37,4 +37,4 @@ To answer this, the paper models the portfolio's log-relative wealth as a hybrid
   );
 };
 
-export default Hybridwealth();
+export default Hybridwealt();
