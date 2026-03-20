@@ -7,11 +7,15 @@
 }
 
 .project-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center the cards */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin-top: 1.5rem;
+}
+@media (max-width: 768px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-card {
