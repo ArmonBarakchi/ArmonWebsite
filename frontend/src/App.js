@@ -27,7 +27,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} /> {/* ✅ */}
+        <Route path="/projects" element={<Projects />} />
 
         <Route path="/guide/C++" element = {<C />} />
         <Route path="/guide/numpy" element = {<Numpy />} />
@@ -35,7 +35,7 @@ function App() {
         <Route path="/guide/mostofundergraduate" element = {<Undergraduate />} />
         <Route path="/guide/python" element = {<Python />} />
 
-        <Route path="/project/hybridwealth" element ={<hybridwealth />} />
+        <Route path="/project/hybridwealth" element ={<Hybridwealth />} />
         <Route path="/project/orientation" element={<Orientation />} />
         <Route path="/project/options" element={<Options />} />
         <Route path="/project/LineBot" element={<LineBot/>} />
