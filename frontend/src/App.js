@@ -17,7 +17,7 @@ import Transcriptomic from './components/Transcriptomic'
 import E6 from './components/E6'
 import Options from './components/Options'
 import Orientation from "./components/Orientation";
-import hybridwealth from "./components/hybridwealth";
+import Hybridwealth from "./components/hybridwealth";
 
 function App() {
   return (
