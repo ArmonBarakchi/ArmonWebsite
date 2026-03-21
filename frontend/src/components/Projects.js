@@ -11,6 +11,38 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
+              <h2>3D Orientation Tracking</h2>
+              <p>Robot orientation tracking and panorama construction from IMU and camera data</p>
+              <a className="read-more" href="/project/orientation">Read More →</a>
+            </div>
+            <a
+                className="github-link"
+                href="https://github.com/ArmonBarakchi/Orientation-Track-from-Sensor-Data"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <div className="project-info">
+              <h2>LiDAR-Based SLAM</h2>
+              <p>Simultaneous Localization and Mapping using LiDAR measurements</p>
+              <a className="read-more" href="/project/LIDAR">Read More →</a>
+            </div>
+            <a
+                className="github-link"
+                href="https://github.com/ArmonBarakchi/LiDAR-BASED-SLAM"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <div className="project-info">
               <h2>Lyapunov Analysis of Market Relative Wealth Via Hybrid Switching Diffusions</h2>
               <p> Developed a mathematical framework proving that an actively managed portfolio
                 cannot fall arbitrarily far below its benchmark, using stochastic barrier

@@ -18,7 +18,7 @@ import E6 from './components/E6'
 import Options from './components/Options'
 import Orientation from "./components/Orientation";
 import Hybridwealt from "./components/hybridwealth";
-
+import LIDAR from "./components/LIDAR"
 function App() {
   return (
     <Router>
@@ -35,6 +35,7 @@ function App() {
         <Route path="/guide/mostofundergraduate" element = {<Undergraduate />} />
         <Route path="/guide/python" element = {<Python />} />
 
+        <Route path="/project/LIDAR" element ={<LIDAR />} />
         <Route path="/project/hybridwealth" element ={<Hybridwealt />} />
         <Route path="/project/orientation" element={<Orientation />} />
         <Route path="/project/options" element={<Options />} />
