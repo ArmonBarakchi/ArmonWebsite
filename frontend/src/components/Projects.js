@@ -44,10 +44,8 @@ const Projects = () => {
           <div className="project-card">
             <div className="project-info">
               <h2>Lyapunov Analysis of Market Relative Wealth Via Hybrid Switching Diffusions</h2>
-              <p> Developed a mathematical framework proving that an actively managed portfolio
-                cannot fall arbitrarily far below its benchmark, using stochastic barrier
-                functions and hybrid switching diffusions to establish rigorous probability
-                guarantees on relative performance.</p>
+              <p> Used stochastic barrier functions and hybrid switching diffusions to establish rigorous probability
+                guarantees on relative performance of a portfolio against a benchmark index.</p>
               <a className="read-more" href="/project/hybridwealth">Read More →</a>
             </div>
 
