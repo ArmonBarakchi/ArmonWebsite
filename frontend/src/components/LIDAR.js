@@ -87,14 +87,14 @@ const LIDAR = () => {
 
 
               <section className="project-section">
-                  <h2>See the Code</h2>
+                  <h2>Read the Paper</h2>
                   <a
                       className="github-button"
-                      href="https://github.com/ArmonBarakchi/LiDAR-BASED-SLAM"
+                      href="/images/ECE276A_PR2_REPORT ARMON BARAKCHI 2.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                   >
-                      View on GitHub →
+                      Open PDF →
                   </a>
               </section>
           </div>

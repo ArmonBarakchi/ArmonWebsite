@@ -91,14 +91,14 @@ const Orientation = () => {
 
 
               <section className="project-section">
-                  <h2>See the Code</h2>
+                  <h2>Read the Paper</h2>
                   <a
                       className="github-button"
-                      href="https://github.com/ArmonBarakchi/Orientation-Track-from-Sensor-Data"
+                      href="/images/ECE276_ARMONBARAKCHI_PR1_REPORT.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                   >
-                      View on GitHub →
+                      Open PDF →
                   </a>
               </section>
           </div>

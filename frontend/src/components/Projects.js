@@ -11,13 +11,13 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>3D Orientation Tracking</h2>
-              <p>Robot orientation tracking and panorama construction from IMU and camera data</p>
-              <a className="read-more" href="/project/orientation">Read More →</a>
+              <h2>Visual Inertial SLAM</h2>
+              <p>Simultaneous Localization and Mapping Via Extended Kalman Filters</p>
+              <a className="read-more" href="/project/VISLAM">Read More →</a>
             </div>
             <a
                 className="github-link"
-                href="https://github.com/ArmonBarakchi/Orientation-Track-from-Sensor-Data"
+                href="https://github.com/ArmonBarakchi/Visual-Inertial-Slam/tree/main"
                 target="_blank"
                 rel="noopener noreferrer"
             >
