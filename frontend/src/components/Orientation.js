@@ -4,9 +4,7 @@ const Orientation = () => {
       <div className="project-container">
           <div className="project-text">
               <h1>3D Orientation Tracking</h1>
-              <p className="project-subtitle">
-                  3D orientation tracking algorithm using unit quaternions
-              </p>
+
               <a
                   className="github-button"
                   href="https://github.com/ArmonBarakchi/Orientation-Track-from-Sensor-Data"
