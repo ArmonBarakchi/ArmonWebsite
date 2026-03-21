@@ -4,9 +4,7 @@ const VISLAM = () => {
       <div className="project-container">
           <div className="project-text">
               <h1>Visual-Inertial SLAM</h1>
-              <p className="project-subtitle">
-                  SLAM using LiDAR measurements to improve dead-reckoning trajectories.
-              </p>
+
               <a
                   className="github-button"
                   href="https://github.com/ArmonBarakchi/Visual-Inertial-Slam/tree/main"

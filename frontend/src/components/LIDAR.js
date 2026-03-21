@@ -4,9 +4,7 @@ const LIDAR = () => {
       <div className="project-container">
           <div className="project-text">
               <h1>LiDAR-Based SLAM</h1>
-              <p className="project-subtitle">
-                  SLAM using LiDAR measurements to improve dead-reckoning trajectories.
-              </p>
+
               <a
                   className="github-button"
                   href="https://github.com/ArmonBarakchi/LiDAR-BASED-SLAM"

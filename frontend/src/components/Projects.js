@@ -11,7 +11,7 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>Visual Inertial SLAM</h2>
+              <h2>Visual-Inertial SLAM</h2>
               <p>Simultaneous Localization and Mapping Via Extended Kalman Filters</p>
               <a className="read-more" href="/project/VISLAM">Read More →</a>
             </div>
