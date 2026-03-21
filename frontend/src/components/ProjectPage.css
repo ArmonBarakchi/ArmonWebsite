@@ -1,0 +1,86 @@
+/* src/components/ProjectPage.css */
+
+.project-page {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  max-width: 1000px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.project-text {
+  flex: 2;
+}
+
+.project-media {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.project-container h1 {
+  font-size: 2.25rem;
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+
+.project-subtitle {
+  font-size: 1.15rem;
+  color: #555;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.project-section {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.project-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+.project-section p,
+.project-section ul {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.project-section ul {
+  padding-left: 1.5rem;
+}
+
+.github-button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.github-button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
