@@ -50,7 +50,7 @@ function Hero() {
         </div>
         <p className="blurb">
           Trained in electrical engineering. Focused on using my cross-disciplinary background to create elegant
-          solutions to complex problems. Strong Foundation in C++ and Python.
+          solutions to complex problems.
         </p>
         <a href="/projects" className="cta-button">My Work</a>
       </div>
