@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import "./Hero.css";
 
 const TITLES = ["Software Developer.", "Controls Engineer.", "Quantitative Analyst."];
 const TYPE_SPEED = 100;
@@ -17,30 +18,24 @@ function Hero() {
 
     const tick = () => {
       if (!isDeleting) {
-        // Typing
         if (displayedText.length < currentTitle.length) {
           setDisplayedText(currentTitle.slice(0, displayedText.length + 1));
           timeoutRef.current = setTimeout(tick, TYPE_SPEED);
         } else {
-          // Finished typing — pause then start deleting
           timeoutRef.current = setTimeout(() => setIsDeleting(true), PAUSE_AFTER_TYPE);
         }
       } else {
-        // Deleting
         if (displayedText.length > 0) {
           setDisplayedText(currentTitle.slice(0, displayedText.length - 1));
           timeoutRef.current = setTimeout(tick, DELETE_SPEED);
         } else {
-          // Finished deleting — move to next title
           setIsDeleting(false);
           setTitleIndex((prev) => (prev + 1) % TITLES.length);
-          timeoutRef.current = setTimeout(tick, PAUSE_AFTER_DELETE);
         }
       }
     };
 
     timeoutRef.current = setTimeout(tick, TYPE_SPEED);
-
     return () => clearTimeout(timeoutRef.current);
   }, [displayedText, isDeleting, titleIndex]);
 
