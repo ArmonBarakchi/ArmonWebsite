@@ -9,6 +9,23 @@ const Projects = () => {
         <h1>Projects</h1>
         <div className="project-list">
 
+
+          <div className="project-card">
+            <div className="project-info">
+              <h2>Deterministic Shortest Path Planning via Search-Based and Sampling-Based Algorithms</h2>
+              <p>Static and Dynamic motion planning in various environments</p>
+              <a className="read-more" href="/project/DSP">Read More →</a>
+            </div>
+            <a
+                className="github-link"
+                href="https://github.com/ArmonBarakchi/Deterministic-Shortest-Path-Motion-Planning-/tree/main"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+          </div>
+
           <div className="project-card">
             <div className="project-info">
               <h2>Dynamic Programming for Motion Planning</h2>
