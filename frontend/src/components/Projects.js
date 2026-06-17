@@ -11,6 +11,22 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
+              <h2>Dynamic Programming for Motion Planning</h2>
+              <p>Motion planning in a door and key environment</p>
+              <a className="read-more" href="/project/DynamicProgramming">Read More →</a>
+            </div>
+            <a
+                className="github-link"
+                href="https://github.com/ArmonBarakchi/Dynamic-Programming-for-Motion-Planning"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <div className="project-info">
               <h2>Visual-Inertial SLAM</h2>
               <p>Simultaneous Localization and Mapping Via Extended Kalman Filters</p>
               <a className="read-more" href="/project/VISLAM">Read More →</a>
