@@ -35,7 +35,7 @@ const OPTIMAL = () => {
                       The result is an end-to-end optimal control framework that combines trajectory tracking,
                       obstacle avoidance, nonlinear optimization, and dynamic programming to study the
                       tradeoffs between online predictive control and offline policy computation in
-                      autonomous robotics. :contentReference[oaicite:0]{index = 0}
+                      autonomous robotics.
                   </p>
               </section>
 
