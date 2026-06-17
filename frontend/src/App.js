@@ -22,6 +22,7 @@ import LIDAR from "./components/LIDAR"
 import VISLAM from "./components/VISLAM"
 import DYNPRO from "./components/276bPR1"
 import DSP from "./components/276bPR2"
+import OPTIMAL from "./components/276bPR3"
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/guide/mostofundergraduate" element = {<Undergraduate />} />
         <Route path="/guide/python" element = {<Python />} />
 
+        <Route path="/project/TrajTracking" element ={<OPTIMAL />} />
         <Route path="/project/DSP" element ={<DSP />} />
         <Route path="/project/DynamicProgramming" element ={<DYNPRO />} />
         <Route path="/project/VISLAM" element ={<VISLAM />} />

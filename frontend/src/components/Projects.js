@@ -9,6 +9,21 @@ const Projects = () => {
         <h1>Projects</h1>
         <div className="project-list">
 
+          <div className="project-card">
+            <div className="project-info">
+              <h2>Optimal Trajectory Tracking via MPC and GPI</h2>
+              <p>Robot tracks a leminscate with MPC and GPI</p>
+              <a className="read-more" href="/project/TrajTracking">Read More →</a>
+            </div>
+            <a
+                className="github-link"
+                href="https://github.com/ArmonBarakchi/Optimal-Trajectory-Tracking-via-MPC-and-GPI"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+          </div>
 
           <div className="project-card">
             <div className="project-info">
