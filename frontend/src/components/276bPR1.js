@@ -1,9 +1,9 @@
-const pr1 = () => {
+const DYNPRO = () => {
   return (
     <div className="project-page">
       <div className="project-container">
           <div className="project-text">
-              <h1>LiDAR-Based SLAM</h1>
+              <h1>Dynamic Programming for Motion Planning</h1>
 
               <a
                   className="github-button"
@@ -82,4 +82,4 @@ const pr1 = () => {
   );
 };
 
-export default pr1;
+export default DYNPRO;

@@ -20,7 +20,7 @@ import Orientation from "./components/Orientation";
 import Hybridwealt from "./components/hybridwealth";
 import LIDAR from "./components/LIDAR"
 import VISLAM from "./components/VISLAM"
-import pr1 from "./components/276bPR1"
+import DYNPRO from "./components/276bPR1"
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
         <Route path="/guide/mostofundergraduate" element = {<Undergraduate />} />
         <Route path="/guide/python" element = {<Python />} />
 
-        <Route path="/project/DynamicProgramming" element ={<pr1 />} />
+        <Route path="/project/DynamicProgramming" element ={<DYNPRO />} />
         <Route path="/project/VISLAM" element ={<VISLAM />} />
         <Route path="/project/LIDAR" element ={<LIDAR />} />
         <Route path="/project/hybridwealth" element ={<Hybridwealt />} />
