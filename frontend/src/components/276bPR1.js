@@ -74,6 +74,18 @@ const DYNPRO = () => {
                       of maps.
                   </p>
               </section>
+
+              <section className="project-section">
+                  <h2>Read the Paper</h2>
+                  <a
+                      className="github-button"
+                      href="/images/ECE276B_PR1_REPORT%20(2).pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                      Open PDF →
+                  </a>
+              </section>
           </div>
 
 
