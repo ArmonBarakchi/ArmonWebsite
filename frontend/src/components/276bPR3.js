@@ -86,7 +86,6 @@ const OPTIMAL = () => {
                       parameters. The results demonstrate that MPC-style CEC achieves significantly lower
                       tracking error by continuously reoptimizing in continuous space, while GPI offers
                       substantially faster runtime execution through precomputed policies.
-                      :contentReference[oaicite:1]{index = 1}
                   </p>
               </section>
 
