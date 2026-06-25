@@ -10,6 +10,7 @@ const QUAD = () => {
                   href="https://github.com/ArmonBarakchi/QuadRotor"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ marginRight: '10px' }}
               >
                   View the Github →
               </a>
