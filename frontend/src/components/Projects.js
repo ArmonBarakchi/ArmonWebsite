@@ -11,6 +11,23 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
+              <h2>Full-Stack Autonomous Quadrotor System for Safe Navigation</h2>
+              <p>Drone navigates between predefined goals in an obstacle rich environment using
+              only onboard sensing</p>
+              <a className="read-more" href="/project/quad">Read More →</a>
+            </div>
+            <a
+                className="github-link"
+                href="https://github.com/ArmonBarakchi/QuadRotor"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <div className="project-info">
               <h2>Optimal Trajectory Tracking via MPC and GPI</h2>
               <p>Robot tracks a leminscate with MPC and GPI</p>
               <a className="read-more" href="/project/TrajTracking">Read More →</a>
